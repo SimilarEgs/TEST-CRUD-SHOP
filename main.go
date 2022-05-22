@@ -3,7 +3,7 @@ package main
 import (
 	"net/http"
 
-	"github.com/SimilarEgs/main/tree/main/api"
+	"github.com/SimilarEgs/test-server/api"
 )
 
 func main() {

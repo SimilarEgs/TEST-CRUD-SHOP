@@ -19,7 +19,7 @@ type Server struct {
 	shopingItems []Item
 }
 
-func newServer() *Server {
+func NewServer() *Server {
 	s := &Server{
 		Router:       mux.NewRouter(),
 		shopingItems: []Item{},
